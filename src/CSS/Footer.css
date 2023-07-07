@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Borna";
+  src: url("../Fonts/Web/webfontkit/borna-regular-webfont.ttf");
+}
+
+.footerbackground {
+  position: absolute;
+  width: 100%;
+  height: 11%;
+  left: 0%;
+  top: 280%;
+  background: #4a5fdb;
+}
+
+.tel {
+  position: absolute;
+  width: 40%;
+  height: 20%;
+  left: 58%;
+  top: 25%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1rem;
+  text-align: center;
+  color: #c8f955;
+}
+
+.mail {
+  position: absolute;
+  width: 50%;
+  height: 20%;
+  left: 3%;
+  top: 55%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1rem;
+  text-align: center;
+  color: #c8f955;
+}

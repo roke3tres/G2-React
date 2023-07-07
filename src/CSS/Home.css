@@ -1,0 +1,354 @@
+@font-face {
+  font-family: "Borna";
+  src: url("../Fonts/Web/webfontkit/borna-regular-webfont.ttf");
+}
+
+.backgroundimg {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../Images/Fotos/_d_ambrosio_07._copy.jpg");
+  position: absolute;
+  width: 100vw;
+  height: auto;
+  left: 0px;
+  top: 0px;
+  background-size: cover;
+}
+
+.borna {
+  font-family: "Borna";
+}
+
+.bim {
+  font-size: 3.75em;
+}
+
+.management {
+  font-size: 3.75em;
+}
+
+.grupog2 {
+  font-size: 1.87em;
+}
+
+.lavanda {
+  color: #4a5fdb;
+}
+
+.hr {
+  border: 0.09em solid #4a5fdb;
+  opacity: 100%;
+}
+
+.titles {
+  margin-top: 30vh;
+}
+
+.management {
+  margin-top: -1rem;
+}
+
+.introduction {
+  position: absolute;
+  width: 70%;
+  height: auto;
+  left: 22%;
+  top: 71.5%;
+  font-size: 4vw;
+  line-height: 1.1em;
+  text-align: right;
+}
+
+.about {
+  position: absolute;
+  width: 35%;
+  height: auto;
+  left: 7.5%;
+  top: 105%;
+  font-family: "Borna";
+  font-style: normal;
+  font-size: 3.1em;
+  line-height: 90.5%;
+  color: #3e3e3e;
+}
+
+.about-text {
+  position: absolute;
+  width: 72%;
+  height: auto;
+  left: 21%;
+  top: 122%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.9vw;
+  line-height: 1.2rem;
+  color: #212121;
+  opacity: 0.6;
+  /* background-color: red; */
+}
+
+.about-text2 {
+  position: absolute;
+  width: 72%;
+  height: auto;
+  left: 21%;
+  top: 144%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.9vw;
+  line-height: 1.2rem;
+  color: #212121;
+  opacity: 0.6;
+  /* background-color: blueviolet; */
+}
+
+.hr-about {
+  position: absolute;
+  width: 90%;
+  left: 10%;
+  top: 114%;
+  border: 2px solid #4a5fdb;
+  opacity: 100%;
+}
+
+.allmembers {
+  width: 100vw;
+  overflow: hidden;
+}
+
+.wrapperscroll {
+  transform: rotate(-90deg) translate3d(0, -90vh, 0) scale(2);
+  transform-origin: right top;
+  overflow-y: auto;
+  overflow-x: hidden;
+  perspective: 1px;
+  transform-style: preserve-3d;
+  padding-bottom: 88vw;
+  margin-top: 310vw;
+  box-sizing: border-box;
+  /* background-color: red; */
+}
+
+.membercard {
+  transform: rotate(90deg);
+  transform-origin: 50% 50%;
+  transform: rotate(90deg) translateZ(0.1px) scale(1) translateX(0px)
+    translateY(-3vh);
+  transition: 1s;
+  /* box-sizing: border-box; */
+}
+
+.slower {
+  transform: rotate(90deg) translateZ(-0.2px) scale(0.5) translateX(70vh)
+    translateY(-8vh);
+}
+.slower1 {
+  transform: rotate(90deg) translateZ(-0.2px) scale(0.5) translateX(255%)
+    translateY(-8vh);
+}
+.slower2 {
+  transform: rotate(90deg) translateZ(-0.2px) scale(0.5) translateX(380%)
+    translateY(-8vh);
+}
+
+.somosr2 {
+  position: absolute;
+  height: auto;
+  top: 190%;
+  left: 11.35%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19vw;
+  line-height: 90.5%;
+  color: #212121;
+  z-index: -10;
+}
+.somosr2-rodri {
+  position: absolute;
+  height: auto;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19vw;
+  line-height: 90.5%;
+  color: #212121;
+  overflow: hidden;
+  margin-top: -67.5%;
+}
+.somosr2-fede {
+  position: absolute;
+  height: auto;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19vw;
+  line-height: 90.5%;
+  color: #212121;
+  overflow: hidden;
+  margin-top: -67.5%;
+}
+.somosr2-jaime {
+  position: absolute;
+  height: auto;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 19vw;
+  line-height: 90.5%;
+  color: #212121;
+  overflow: hidden;
+  margin-top: -67.5%;
+}
+
+.one-member-rodri {
+  position: absolute;
+  width: 63%;
+  height: 122vw;
+  left: 30%;
+  top: -40vw;
+  /* overflow: hidden; */
+}
+.one-member-fede {
+  position: absolute;
+  width: 63%;
+  height: 122vw;
+  left: 30%;
+  top: -40vw;
+  /* overflow: hidden; */
+}
+.one-member-jaime {
+  position: absolute;
+  width: 63%;
+  height: 122vw;
+  left: 30%;
+  top: -40vw;
+  /* overflow: hidden; */
+}
+
+.member-rodri {
+  position: absolute;
+  left: 0%;
+  right: 68.66%;
+  top: 67%;
+  bottom: 28.11%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 90.5%;
+  color: #797979;
+  opacity: 90%;
+  /* overflow: hidden; */
+}
+.member-fede {
+  position: absolute;
+  left: 0%;
+  right: 68.66%;
+  top: 67%;
+  bottom: 28.11%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 90.5%;
+  color: #797979;
+  opacity: 90%;
+}
+.member-jaime {
+  position: absolute;
+  left: 0%;
+  right: 68.66%;
+  top: 67%;
+  bottom: 28.11%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 4vw;
+  line-height: 90.5%;
+  color: #797979;
+  opacity: 90%;
+}
+
+.member-description {
+  position: absolute;
+  left: 0.37%;
+  right: 8.58%;
+  top: 75%;
+  bottom: 8.68%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.8vw;
+  line-height: 1.15rem;
+  color: #212121;
+  opacity: 0.6;
+}
+
+.leer-mas {
+  position: relative;
+  left: 65.97%;
+  right: 15.4%;
+  top: 100%;
+  bottom: 1.51%;
+  font-family: "Borna";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.6vw;
+  line-height: 1.1rem;
+  text-decoration-line: underline;
+  color: #4a5fdb;
+  opacity: 0.6;
+}
+
+.member-img-rodri {
+  position: absolute;
+  left: 0%;
+  right: 1.12%;
+  top: 0%;
+  bottom: 35.85%;
+  background: linear-gradient(
+      0deg,
+      rgba(200, 249, 85, 0.2),
+      rgba(200, 249, 85, 0.2)
+    ),
+    url("../Images/Fotos/Rodri.jpg");
+  mix-blend-mode: normal;
+  opacity: 40%;
+}
+.member-img-fede {
+  position: absolute;
+  left: 0%;
+  right: 1.12%;
+  top: 0%;
+  bottom: 35.85%;
+  background: linear-gradient(
+      0deg,
+      rgba(200, 249, 85, 0.2),
+      rgba(200, 249, 85, 0.2)
+    ),
+    url("../Images/Fotos/Fede.jpg");
+  mix-blend-mode: normal;
+  opacity: 40%;
+}
+
+.member-img-jaime {
+  position: absolute;
+  left: 0%;
+  right: 1.12%;
+  top: 0%;
+  bottom: 35.85%;
+  background: linear-gradient(
+      0deg,
+      rgba(200, 249, 85, 0.2),
+      rgba(200, 249, 85, 0.2)
+    ),
+    url("../Images/Fotos/Jaime.jpg");
+  mix-blend-mode: normal;
+  opacity: 40%;
+}
