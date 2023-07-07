@@ -3,10 +3,7 @@ import "../CSS/ModeloIFC.css";
 function ModeloIFC() {
   return (
     <>
-      <div id="ifc-container" className="modeloifc"></div>
-      <div className="test">
-        <h1 className="mt-5">Modelo IFC</h1>
-      </div>
+      <iframe src="https://g2-ifc-x3yr.vercel.app" frameborder="0"></iframe>
     </>
   );
 }
