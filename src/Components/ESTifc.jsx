@@ -1,4 +1,4 @@
-function ModeloRevit() {
+function ESTifc() {
   return (
     <>
       <div className="test">
@@ -8,4 +8,4 @@ function ModeloRevit() {
   );
 }
 
-export default ModeloRevit;
+export default ESTifc;
