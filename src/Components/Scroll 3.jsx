@@ -47,7 +47,7 @@ function scroll3() {
           <div className="membercard slower23">
             <h1 className="somosr2-jaime text-start">Tomas Del Val</h1>
             <div className="one-member-jaime">
-              <div className="member-img-jaime"></div>
+              <div className="member-img-tomi"></div>
               <h4 className="member-jaime text-start">Tomas Del Val</h4>
               <p className="member-description text-start">
                 Lorem ipsum dolor sit amet consectetur. A tortor leo ac

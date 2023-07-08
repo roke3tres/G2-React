@@ -337,7 +337,7 @@
       rgba(164, 164, 164, 0.2),
       rgba(106, 106, 106, 0.2)
     ),
-    url("../Images/Fotos/Fede.jpg");
+    url("../Images/Fotos/Kachi.jpg");
   mix-blend-mode: normal;
   opacity: 70%;
 }
@@ -353,11 +353,25 @@
       rgba(164, 164, 164, 0.2),
       rgba(106, 106, 106, 0.2)
     ),
-    url("../Images/Fotos/Jaime.jpg");
+    url("../Images/Fotos/Rodrie.jpg");
   mix-blend-mode: normal;
   opacity: 70%;
 }
-
+.member-img-tomi {
+  position: absolute;
+  left: 0%;
+  right: 1.12%;
+  top: 0%;
+  bottom: 35.85%;
+  background: linear-gradient(
+      0deg,
+      rgba(164, 164, 164, 0.2),
+      rgba(106, 106, 106, 0.2)
+    ),
+    url("../Images/Fotos/Tomi.jpg");
+  mix-blend-mode: normal;
+  opacity: 70%;
+}
 /* iframe {
   margin-top: 15vh;
 } */
