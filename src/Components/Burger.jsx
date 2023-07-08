@@ -98,21 +98,21 @@ function Burger({aboutRef}) {
               <ul>About</ul>
             </Link>
             <hr className="burgerhr" />
-            <Link to="/planos" className="text-decoration-none">
+            {/* <Link to="/planos" className="text-decoration-none">
               <ul>Planos</ul>
             </Link>
             <hr className="burgerhr" />
             <Link to="/modelorevit" className="text-decoration-none">
               <ul>Modelo Revit</ul>
             </Link>
-            <hr className="burgerhr" />
+            <hr className="burgerhr" /> */}
             <Link to="/modeloifc" className="text-decoration-none">
               <ul>Modelo IFC</ul>
             </Link>
-            <hr className="burgerhr" />
-            <Link to="/documentacion" className="text-decoration-none">
-              <ul>Documentación</ul>
-            </Link>
+            {/* <hr className="burgerhr" /> */}
+            {/* <Link to="/presentacion" className="text-decoration-none">
+              <ul>Presentación</ul>
+            </Link> */}
           </div>
         </div>
       </Collapse>

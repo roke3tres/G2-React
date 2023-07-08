@@ -14,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/modeloifc" element={<ModeloIFC />} />
         <Route path="/estifc" element={<ESTifc />} />
-        <Route path="/documentacion" element={<Documentacion />} />
+        <Route path="/presentacion" element={<Documentacion />} />
       </Routes>
     </div>
   );

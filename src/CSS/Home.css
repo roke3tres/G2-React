@@ -9,7 +9,7 @@
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
     ),
-    url("../Images/Fotos/_d_ambrosio_07._copy.jpg");
+    url("../Images/Fotos/resa2.jpg");
   position: absolute;
   width: 100vw;
   height: auto;
@@ -153,6 +153,11 @@
 }
 .slower2 {
   transform: rotate(90deg) translateZ(-0.2px) scale(0.5) translateX(380%)
+    translateY(-8vh);
+}
+
+.slower23 {
+  transform: rotate(90deg) translateZ(-0.2px) scale(0.5) translateX(490%)
     translateY(-8vh);
 }
 
@@ -314,12 +319,12 @@
   bottom: 35.85%;
   background: linear-gradient(
       0deg,
-      rgba(200, 249, 85, 0.2),
-      rgba(200, 249, 85, 0.2)
+      rgba(164, 164, 164, 0.2),
+      rgba(106, 106, 106, 0.2)
     ),
     url("../Images/Fotos/Rodri.jpg");
   mix-blend-mode: normal;
-  opacity: 40%;
+  opacity: 70%;
 }
 .member-img-fede {
   position: absolute;
@@ -329,12 +334,12 @@
   bottom: 35.85%;
   background: linear-gradient(
       0deg,
-      rgba(200, 249, 85, 0.2),
-      rgba(200, 249, 85, 0.2)
+      rgba(164, 164, 164, 0.2),
+      rgba(106, 106, 106, 0.2)
     ),
     url("../Images/Fotos/Fede.jpg");
   mix-blend-mode: normal;
-  opacity: 40%;
+  opacity: 70%;
 }
 
 .member-img-jaime {
@@ -345,12 +350,12 @@
   bottom: 35.85%;
   background: linear-gradient(
       0deg,
-      rgba(200, 249, 85, 0.2),
-      rgba(200, 249, 85, 0.2)
+      rgba(164, 164, 164, 0.2),
+      rgba(106, 106, 106, 0.2)
     ),
     url("../Images/Fotos/Jaime.jpg");
   mix-blend-mode: normal;
-  opacity: 40%;
+  opacity: 70%;
 }
 
 /* iframe {

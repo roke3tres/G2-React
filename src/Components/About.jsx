@@ -3,17 +3,18 @@ function About() {
     <div>
       <h1 className="about">About</h1>
       <p className="about-text text-start">
-        Lorem ipsum dolor sit amet consectetur. Amet duis consectetur id
-        vulputate auctor amet sagittis. Cras sit enim nisi id. Dignissim
-        malesuada risus lobortis phasellus. Nunc donec arcu mauris pellentesque
-        morbi hac.
+        Somos el Grupo 2, participantes del Master en BIM Management de la
+        Universidad de La Salle en 2023. Nuestro proyecto web busca demostrar
+        que el acceso a información y modelos BIM no requiere conocimientos
+        técnicos.
       </p>
       <p className="about-text2 text-start">
-        Consectetur dignissim sit massa semper in accumsan aliquam nullam velit.
-        Commodo id nisi dictum nulla nibh. Quam cras proin lacus ultricies
-        fringilla faucibus. Quisque velit vitae ut lectus a ut nullam odio quis.
-        Pharetra ante cras sem quis. Accumsan etiam felis mattis sit dignissim
-        tempor fames.
+        En el marco de nuestro programa de estudios, nos hemos propuesto
+        desarrollar una solución intuitiva y accesible para democratizar el uso
+        de BIM. A través de esta plataforma, queremos mostrar cómo las
+        tecnologías actuales pueden hacer que la información y los modelos BIM
+        sean accesibles para todos, sin importar su nivel de experiencia
+        técnica.
       </p>
       <hr className="hr-about" />
     </div>
