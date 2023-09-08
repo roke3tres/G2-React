@@ -1,7 +1,25 @@
-.arrow {
+/* .arrow {
   position: absolute;
   width: 10%;
   height: 10%;
   left: 83%;
   top: 89%;
+} */
+
+.arrow {
+  position: absolute;
+  width: 4vw;
+  height: 4vw;
+  left: 83vw;
+  top: 105vh;
+}
+
+/* Media query para pantallas más pequeñas (ajusta estos valores según sea necesario) */
+@media screen and (max-width: 768px) {
+  .arrow {
+    width: 10vw;
+    height: 10vw;
+    left: 82vw;
+    top: 79vh;
+  }
 }

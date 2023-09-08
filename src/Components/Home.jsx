@@ -1,6 +1,5 @@
 import "../CSS/Home.css";
 import React, {useRef} from "react";
-// import Somosr2 from "./Somosr2";
 import Footer from "./Footer";
 import Arrow from "./Arrow";
 import Scroll3 from "./Scroll 3";
@@ -41,7 +40,6 @@ function Home() {
       <div ref={aboutRef}>
         <About />
       </div>
-      {/* <Somosr2 /> */}
       <Scroll3 />
       <Footer />
     </div>

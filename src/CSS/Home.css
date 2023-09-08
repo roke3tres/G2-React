@@ -104,7 +104,6 @@
   line-height: 1.2rem;
   color: #212121;
   opacity: 0.6;
-  /* background-color: blueviolet; */
 }
 
 .hr-about {
@@ -140,7 +139,6 @@
   transform: rotate(90deg) translateZ(0.1px) scale(1) translateX(0px)
     translateY(-3vh);
   transition: 1s;
-  /* box-sizing: border-box; */
 }
 
 .slower {
@@ -297,9 +295,9 @@
 
 .leer-mas {
   position: relative;
-  left: 65.97%;
+  left: 25.97%;
   right: 15.4%;
-  top: 100%;
+  top: 88%;
   bottom: 1.51%;
   font-family: "Borna";
   font-style: normal;
@@ -372,6 +370,16 @@
   mix-blend-mode: normal;
   opacity: 70%;
 }
-/* iframe {
-  margin-top: 15vh;
-} */
+
+.navbarifc {
+  background-color: #4a5fdb;
+  height: 9vh;
+}
+
+.exit {
+  color: #c8f955;
+  text-align: end;
+  margin-right: 1.2em;
+  padding-top: 2.4vh;
+  font-size: 1.9rem;
+}
