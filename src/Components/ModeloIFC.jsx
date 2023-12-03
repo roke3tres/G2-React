@@ -12,7 +12,7 @@ function ModeloIFC() {
       <iframe
         title="IFC"
         style={{width: "100vw", height: "100vh"}}
-        src="https://g2-ifc-x3yr.vercel.app"
+        src="https://ifcarq.vercel.app"
         frameborder="0"
       ></iframe>
     </>
